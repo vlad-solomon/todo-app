@@ -1,0 +1,15 @@
+.empty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	border-bottom: 1px solid var(--gray-100);
+	background-color: var(--accent);
+	span {
+		font-size: 18px;
+		text-align: center;
+		color: var(--gray-800);
+		white-space: pre-line;
+		line-height: 160%;
+	}
+}

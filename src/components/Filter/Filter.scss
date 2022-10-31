@@ -1,0 +1,22 @@
+.filter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 48px;
+	background-color: var(--accent);
+	box-shadow: var(--box-shadow);
+	border-radius: var(--border-radius);
+	&__option {
+		font-size: 14px;
+		font-weight: var(--fw-bold);
+		text-transform: capitalize;
+		color: var(--gray-800);
+		cursor: pointer;
+		&:not(:last-of-type) {
+			margin-right: 20px;
+		}
+		&.selected {
+			color: var(--blue);
+		}
+	}
+}

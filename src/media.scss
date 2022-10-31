@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+	.logo {
+		span {
+			font-size: 40px;
+		}
+	}
+	.input {
+		font-size: 18px;
+		padding: 23px;
+	}
+	.todo {
+		height: 64px;
+		&__status {
+			height: 24px;
+			width: 24px;
+			margin-right: 24px;
+		}
+		&__text {
+			font-size: 18px;
+		}
+		&__clear {
+			height: 18px;
+		}
+	}
+	.todos {
+		&__footer {
+			.filter {
+				display: flex;
+			}
+			span {
+				font-size: 14px;
+			}
+		}
+	}
+	.filter {
+		display: none;
+	}
+}

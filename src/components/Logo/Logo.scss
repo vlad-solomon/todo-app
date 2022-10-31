@@ -1,0 +1,16 @@
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	span {
+		font-size: 28px;
+		color: #fff;
+		font-weight: var(--fw-bold);
+		letter-spacing: 10px;
+		text-transform: uppercase;
+	}
+	.theme-change {
+		cursor: pointer;
+	}
+}
